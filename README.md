@@ -2,10 +2,6 @@
 
 **Abstract** Identifying potential drug-target interactions (DTIs) is crucial for understanding drug mechanisms, and recent computational methods have yielded promising re sults in this area. However, these methods face several challenges, including limited model generalization due to heavy reliance on multiple similarity datasets and complex feature extraction, as well as a lack of interpretability by ignoring intrinsic information about drugs and targets. To address these challenges, we propose DrugKANs, a novel DTI prediction model that enhances both the quality and interpretability of DTI representations by integrating a dual tower architecture with Kolmogorov-Arnold Network (KAN) technology. Our model involves utilizing a pre-trained model to derive initial representations of drugs and targets, and employing a lightweight attention mechanism to cap ture key features, thereby improving representation quality. We leverage the dual-tower architecture and a lightweight feature interaction mechanism to extract high-level repre sentations separately for drugs and targets, aiming to re duce complex feature interactions and mitigate overfitting. Additionally, we incorporate a contrastive learning strategywithin the drug-target bipartite graph to address sparse neighborhood effects and enhance topological information. The inclusion of KAN technology further improves the inter pretability of the DTI prediction model. Experimental results on public datasets demonstrate that our model predicts DTIs effectively, underscoring its potential as a valuable tool in drug discovery. This comprehensive methodology presents a balanced approach to overcoming the identified challenges in DTI prediction.
 
-### Dataset ###
-
-First, you need to download the dataset from [Google](https://drive.google.com/file/d/1-4wdtL0X6tSO1CFiZAUl98H24WBS0y6t/view?usp=drive_link)
-
 ### Requirements ###
 python = 3.9
 
